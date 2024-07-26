@@ -1,0 +1,40 @@
+.fashion-container {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.fashion-slider {
+    width: 100%;
+}
+.tshirt-img img{
+    width: 120%;
+    object-fit: contain;
+    aspect-ratio: 2/2.5;
+}
+.fashion-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: whitesmoke;
+    aspect-ratio: 1/1;
+}
+.fashion-card{
+    margin: 10px;
+}
+.product-title{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+.product-price{
+    font-size: 14px;
+    font-weight: 600;
+}
+.product-price del{
+    color: red;
+    font-weight: 10px;
+}
+.fasshion-card:hover .mobile-img img{
+    transform: scale(1.03);
+}

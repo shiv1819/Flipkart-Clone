@@ -1,0 +1,18 @@
+.vision-main{
+    margin: 0 25px;
+    background-color: aliceblue;
+    padding: 30px 30px;
+}
+.vision-title{
+    color: #063F84;
+    font-family: "Bitter", Sans-serif;
+    font-size: 40px;
+    line-height: 1.3em;
+    font-weight: 800;
+}
+.vision-content{
+    color: #063F84;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 25px 10px;
+}

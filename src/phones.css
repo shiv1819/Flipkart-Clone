@@ -1,0 +1,40 @@
+.phone-container {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.mobile-slider {
+    width: 100%;
+}
+.mobile-slider img{
+    width: 70%;
+    height: max-content;
+}
+.mobile-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: whitesmoke;
+    aspect-ratio: 1/1;
+}
+.mobile-card{
+    margin: 10px;
+}
+.product-title{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+.product-price{
+    font-size: 14px;
+    font-weight: 600;
+}
+.product-price del{
+    color: red;
+    font-weight: 10px;
+}
+.mobile-card:hover .mobile-img img{
+    transform: scale(1.03);
+}
+

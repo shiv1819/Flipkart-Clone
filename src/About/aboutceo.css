@@ -1,0 +1,17 @@
+.about-ceo-main {
+    margin: 70px 0;
+}
+
+.ceo-img {
+    max-width: 1250px;
+}
+
+.ceo-img img {
+    width: 100%;
+}
+
+@media only screen and (min-width:280px) and (max-width: 768px) {
+    .about-ceo-main {
+        margin: 20px 0;
+    }
+}

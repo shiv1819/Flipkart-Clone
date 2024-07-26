@@ -1,0 +1,105 @@
+.footer {
+    right: 0px;
+    line-height: 1.5;
+    background-color: rgb(33, 33, 33);
+    color: #ffffff8b;
+    padding: 0 10px;
+    position: relative;
+}
+
+.footer::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(./images/footer-bg.png);
+    opacity: .5;
+}
+.foot-col2,
+.foot-col3,
+.foot-col4,
+.foot-col5 p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.5;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.85);
+    padding: 10px;
+    min-height: 250px;
+    
+}
+.foot-context div:hover {
+    text-decoration: underline;
+}
+.col-lg-3{
+    width: 30%;
+}
+
+.footer b {
+    font-size: 17px;
+    padding: 50px 0;
+    color: rgb(242, 229, 67);
+    text-transform: uppercase;
+}
+
+
+
+.foot-context {
+    padding: 20px 0;
+    line-height: 2;
+}
+
+.foot-context div {
+    text-transform: capitalize;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.footer-logo img {
+    width: 55%;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-small;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+.foot-row {
+    padding-top: 30px;
+}
+
+.footer-end-right {
+    display: flex;
+}
+
+.footer-end-right div:hover {
+    text-decoration: underline;
+    color: #7cac36;
+}
+
+.footer-end-right div {
+    padding: 0 20px;
+}
+
+/* footer-end */
+
+@media only screen and (min-width:280px) and (max-width: 767px) {
+    .col-lg-3 {
+        width: 100%;
+    }
+    .footer-end {
+        display: flex;
+        font-size: 10px;
+        padding: 30px 10px;
+    }
+}

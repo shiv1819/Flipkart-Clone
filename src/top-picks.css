@@ -1,0 +1,69 @@
+.picks-main {
+    margin: 12px 10px;
+}
+
+.picks-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: black;
+    text-align: left;
+}
+
+.top-picks-box {
+    background-color: white;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+}
+.picks-flex{
+    flex-wrap: nowrap;
+}
+.bestselling-container {
+    padding: 15px 0;
+}
+
+.bestselling-flex {
+    display: flex;
+}
+
+.bestselling-flex div {
+    margin: 0 5px;
+    width: 100%;
+}
+
+.product-title {
+    font-size: 11.5px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 5px 0;
+}
+.top-picks-box {
+    width: 23.5%;
+}
+.top-picks-box img {
+    max-height: 220px;
+    object-fit: fill;
+}
+
+@media only screen and (min-width:280px) and (max-width: 767px) {
+    .picks-flex{
+        flex-wrap: wrap;
+    }
+    .top-picks-box {
+        margin: 10px 0;
+        width: 100%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1023px) {
+    .picks-flex{
+        flex-wrap: wrap;
+    }
+    .col-md-5{
+        width: 47%;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width: 1400px) {
+
+    
+}

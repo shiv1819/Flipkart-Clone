@@ -1,0 +1,49 @@
+.about-sustainability-main{
+    background-image: url("../images/bg-1.svg");
+    padding: 50px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-main{
+    width: 100%;
+    background: linear-gradient(90deg, #ffcd00, #017bd4);
+    background-size: 70% 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.bg-main img{
+    width: 55%;
+}
+.about-sustainability-title{
+    font-size: 50px;
+    padding: 20px ;
+}
+.article-content{
+    text-align: center;
+    color: #848484;
+    padding: 2% 25%;
+    line-height: 1.5;
+    font-size: 21px;
+}
+.know-more-btn{
+    margin-top: 40px;
+}
+.know-more-btn button{
+    padding: 100px;
+    color: #fff;
+    background: #007bd4;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: auto;
+    line-height: 2;
+    padding: 10px 40px;
+}
+
+@media only screen and (min-width:280px) and (max-width: 767px) {
+
+        .article-content{
+            padding: 20px 20px;
+        }
+}
